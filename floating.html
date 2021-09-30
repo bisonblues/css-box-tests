@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="styles.css" rel="stylesheet"> -->
+    <title>CSS Box Layout</title>
+</head>
+<style>
+    .nav-container {
+        border: 1px solid red;
+    }
+
+    .nav-left,
+    .nav-middle,
+    .nav-right {
+        border: 1px solid lightblue;
+    }
+</style>
+<body>
+    <div class="nav-home"><a href="/index.html">Home</a></div>
+    <div class="page-title">
+        <h1>How to float elements</h1>
+    </div>
+    <div class="page-introduction">
+        <p>This goes into how to float elements, even nested ones, so that they can be placed where you want them.</p>
+        <p>This is often most applicable to items such as Navigation Bar creation.</p>
+        <p><a href="https://www.w3schools.com/CSSref/pr_class_float.asp">You can follow this link to see more.</a></p>
+    </div>   
+
+    <div class="nav-container">
+        <div class="nav-left">
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+            </ul>
+        </div>
+        <div class="nav-middle">
+            <p># This will be blank space #</p>
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+            </ul>            
+        </div>
+    </div>
+    
+</body>
+</html>
